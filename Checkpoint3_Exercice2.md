@@ -148,3 +148,9 @@ Les regles :
 ### **Q.2.6.1**
 
 Malheureusement après plusieurs tentative de plusieur commande différente aucune log de connexion n'apparait.
+Les commandes testé sont :
+- grep -i "failed" /var/log/auth.log | tail -n 10
+- grep -i "failed" /var/log/secure | tail -n 10
+- grep -i "authentication failure" /var/log/auth.log | tail -n 10
+- grep "Failed password" /var/log/auth.log | tail -n 10 | awk '{print $1, $2, $3, $11}'
+
