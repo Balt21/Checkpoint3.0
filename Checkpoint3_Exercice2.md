@@ -42,7 +42,8 @@ décommentassions des deux lignes en jaune et sur la ligne PasswordAuthentificat
 ### **Q.2.3.1**
 
 Pour voir les systèmes de fichiers monté j'ai fais un df -hT et un lsblk -f
-Les système de fichier monter sont : tmpfs (4)(- udev -
+Les système de fichier monter sont : 
+⦁ udev ⦁ tmpfs(4) ⦁ /dev/mapper/cp3–vf-root ⦁ /dev/md0p1
 
 ![image](https://github.com/user-attachments/assets/2e7abf57-fc56-4ae3-b2c7-47c6d66f7ccf)
 
