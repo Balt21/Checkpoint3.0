@@ -53,7 +53,7 @@ Les système de fichier monter sont :
 
 Les systemes de stockage utilisé sont :
 
-udev - tmpfs - /dev/mapper/cp3--vf-root - /dev/md0p1
+udev - tmpfs - /dev/mapper/cp3--vg-root - /dev/md0p1
 
 ### **Q.2.3.3**
 
